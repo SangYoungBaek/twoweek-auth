@@ -27,8 +27,6 @@ public class AuthController {
 
     public static final String AUTHORIZATION_HEADER = "Authorization";
 
-
-
     @GetMapping("/create-cookie")
     public String createCookie(HttpServletResponse res) {
         addCookie("Robbie Auth", res);
